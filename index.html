@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca do ouro perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p> No ano de 2024 ocorreu as olimpíadas de Paris, e tive o privilégio de estar lá, porém com a vitória de um brasileiro, no momento da premiação a medalha de ouro foi roubada e do meu lado havia uma carta contendo informações da onde a medalha estava. </p>
+            <button class="btn-proximo" data-proximo="1">Paris</button>
+            <button class="btn-proximo" data-proximo="2">Lyon</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada em Paris, subindo até a torre Eiffel ao anoitecer para encontrar a primeira pista.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista no topo da torre Eiffel</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Em Paris, você encontra a primeira pista no topo da torre Eiffel, e descobre que possue uma nova pista num bar conhecido como Aurora em Lyon.</p>
+            <button class="btn-proximo" data-proximo="5">Entrar no Aurora e procurar a próxima pista.</button>
+            <button class="btn-proximo" data-proximo="6">procurar ao redor do Aurora.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Chegando ao bar de Lyon, você encontra a pista e percebe que para encontrar a medalha deve seguir para a próxima pista que está em Madrid na Espanha.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a Alemanha.</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Depois de muito pensar você decide seguir pois quer muito encontrar a medalha.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Chegando em Madrid, você já encontra vestígios indicando que o caminho esta certo.</p>
+            <button class="btn-proximo" data-proximo="7">Continuar ou esfriar a cabeça em alguma praia da Espanha.</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você decide ir esfriar a cabeça em uma praia, mais até lá parece que o destino insistia para continuar a procurar, pois acabara de encontrar outra pista.</p>
+            <button class="btn-proximo" data-proximo="8">Esfriar a cabeça ou retornar na busca.</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Você decide continuar a busca e lendo a carta percebe que adiantou várias cartas e anima-se pois acredita que a medalha estava próxima.</p>
+            <button class="btn-proximo" data-proximo="9">Continuar a seguir as pistas.</button>
+            <button class="btn-proximo" data-proximo="10">Dar uma pausa na praia.</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p> Você segue a próxima pista que pedia para retornar até a torre Eiffel.</p>
+            <button class="btn-proximo" data-proximo="7">Retornar em Paris na França.</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Chegando lá a pista estava em uma das pilastras da torre.</p>
+            <button class="btn-proximo" data-proximo="11">Abrir a carta e ler.</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Lendo a carta você percebe que depois de toda essa aventura é só voltar para onde tinha sido feito a entrega das medalhas.
+.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar descobrir a verdade e encontrar a medalha.</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo12-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Retornando lá, você ouve as autoridades falando que a medalha de ouro tinha sido encontrada.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Ela apenas tinha caído atrás do palco onde estava ocorrendo a entrega das medalhas.</p>
+            <button class="btn-proximo" data-proximo="11">As pistas eram apenas para despistar.</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
